@@ -20,4 +20,5 @@ Sys.time()
 
 ```{r session}
 sessionInfo()
+
 ```
