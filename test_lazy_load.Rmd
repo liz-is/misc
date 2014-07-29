@@ -1,0 +1,21 @@
+---
+title: "test lazy load"
+author: "Liz Ing-Simmons"
+date: "29 July 2014"
+output: html_document
+---
+cache.lazy = TRUE
+```{r lazy_time, cache=TRUE, cache.lazy=TRUE}
+Sys.time()
+
+```
+
+cache.lazy = FALSE
+```{r unlazy_time, cache=TRUE, cache.lazy=FALSE}
+Sys.time()
+
+```
+
+```{r session}
+sessionInfo()
+```
