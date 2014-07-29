@@ -2,7 +2,9 @@
 title: "test lazy load"
 author: "Liz Ing-Simmons"
 date: "29 July 2014"
-output: html_document
+output:
+  html_document:
+    keep_md: yes
 ---
 cache.lazy = TRUE
 ```{r lazy_time, cache=TRUE, cache.lazy=TRUE}
